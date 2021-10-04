@@ -1,15 +1,24 @@
 package com.openclassroom.testing;
 
-
+import com.openclassroom.testing.service.Calculator;
 import org.junit.jupiter.api.*;
+import org.junit.runner.RunWith;
+import org.mockito.junit.MockitoJUnitRunner;
+
+
 import java.time.Duration;
 import java.time.Instant;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * geschreven in JUnit 5
+/*
+ * Written in JUnit 5
  */
+
+/**
+ * Unit Tests written to test the Calculator class
+ */
+@RunWith(MockitoJUnitRunner.class)
 public class CalculatorTest {
 
     static Calculator calculator;
@@ -49,7 +58,18 @@ public class CalculatorTest {
         //arange
         int expected = 49; // 7*7 = 49
         //act
-        int actual = calculator.multiplyTwoNumbers(7,7);
+        Double actual = calculator.multiplyTwoNumbers(7.0,7.0);
+        //assert
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    @DisplayName("Multiplying large numbers")
+    public void multiplyLargeNumbers(){
+        //arange
+        Double expected = 20.20; // 0.2*101.0 = 20.20
+        //act
+        double actual = calculator.multiplyTwoNumbers(0.2,101.0);
         //assert
         assertEquals(expected, actual);
     }
@@ -60,11 +80,11 @@ public class CalculatorTest {
         //arange
         int expected = 8; //64/8 = 8
         //act
-        float actual = calculator.divideTwoNumbers(64,8);
+        double actual = calculator.divideTwoNumbers(64,8);
         //assert
         assertEquals(expected, actual,0F);
 
-        float actual2 = calculator.divideTwoNumbers(75,6);
+        double actual2 = calculator.divideTwoNumbers(75,6);
         //assert
         assertEquals(12.5, actual2,1F);
     }
@@ -85,6 +105,14 @@ public class CalculatorTest {
         });
     }
 
+    @Test
+    @DisplayName("Testing of method gives error when passing trough a zero as divider")
+    public void divideByZero(){
+        Assertions.assertThrows(IllegalArgumentException.class, () -> {
+            calculator.divideTwoNumbers(10,0);
+        });
+    }
+
     //test will fail if the test takes to long
     @Test()
     @Timeout(2) //timeout in seconds
@@ -92,7 +120,6 @@ public class CalculatorTest {
         calculator.slowCalculation(300L);
     }
     //endregion
-
 
     //region JUnit + Hamcrest
     @Test
@@ -107,5 +134,7 @@ public class CalculatorTest {
     }
     //endregion
 }
+
+
 
 

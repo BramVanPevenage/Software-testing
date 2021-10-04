@@ -1,5 +1,10 @@
-package com.openclassroom.testing;
+package com.openclassroom.testing.service;
 
+import java.math.BigDecimal;
+
+/**
+ * Simple Calculator
+ */
 public class Calculator {
 
     /**
@@ -28,17 +33,23 @@ public class Calculator {
      * @param b second number
      * @return the result of multiplication
      */
-    public int multiplyTwoNumbers(int a, int b) {
-        return a*b;
+    public double multiplyTwoNumbers(Double a, Double b) {
+        BigDecimal product = BigDecimal.ZERO;
+        product = product.add(new BigDecimal(a.toString()));
+        product = product.multiply(new BigDecimal(b.toString()));
+        return product.doubleValue();
     }
 
     /**
      * Division of two numbers
+     * When divider is 0 trow exception
      * @param a first number, the number that will be divided
      * @param b second number, the number that divide the first number
      * @return the result from the division
      */
-    public float divideTwoNumbers(int a, int b) {
+    public double divideTwoNumbers(double a, double b) {
+        if(b==0)
+            throw new IllegalArgumentException();
         return a/b;
     }
 

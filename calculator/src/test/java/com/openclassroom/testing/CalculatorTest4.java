@@ -1,6 +1,7 @@
 package com.openclassroom.testing;
 
 
+import com.openclassroom.testing.service.Calculator;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,8 +9,13 @@ import org.junit.jupiter.api.DisplayName;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/*
+ * Written in JUNIT 4
+ */
+
+
 /**
- * geschrevn in JUNIT 4
+ * Unit Tests written to test the Calculator class
  */
 public class CalculatorTest4 {
     Calculator calculator;
@@ -47,7 +53,7 @@ public class CalculatorTest4 {
         //arange
         int expected = 49; // 7*7 = 49
         //act
-        int actual = calculator.multiplyTwoNumbers(7,7);
+        double actual = calculator.multiplyTwoNumbers(7.0,7.0);
         //assert
         Assert.assertEquals(expected, actual);
     }
@@ -57,11 +63,11 @@ public class CalculatorTest4 {
         //arange
         int expected = 8; //64/8 = 8
         //act
-        float actual = calculator.divideTwoNumbers(64,8);
+        double actual = calculator.divideTwoNumbers(64,8);
         //assert
         Assert.assertEquals(expected, actual,0F);
 
-        float actual2 = calculator.divideTwoNumbers(75,6);
+        double actual2 = calculator.divideTwoNumbers(75,6);
         //assert
         Assert.assertEquals(12.5, actual2,1F);
     }
