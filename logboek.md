@@ -42,6 +42,13 @@
     * een oefening van hun voorgescholteld -> afgewerkt.
 * ik heb al deze voorbeelden ook al geïmplementeerd op hun voorbeeld oefeningen en ben daarnaast bezig met een eigen project op te bouwen.
   * tot 2.1 op eigen geïmplmenteerd.
+* verder ben ik begonnen aan derde en eveneens het laatste deel van de cursus
+  * heb bekeken hoe we units hun samenwerking gaan testen.
+    * integration tests
+      * component: tests of een aantal units met alkaar kan samenwerken
+      * system: test datje units in een gedeeltelijke draaiend systeem kunnen werken.
+    * end-to-end: heel het systeem runnen en testen met een user 
+    * acceptance : business testing kan in verschillende lagen gebeuren.
 
 # Bronnenlijst
 | #   | Links                                                                                                                                                                                                                                           |
