@@ -46,16 +46,15 @@
   * heb bekeken hoe we units hun samenwerking gaan testen.
     * integration tests
       * component: tests of een aantal units met alkaar kan samenwerken
-      * system: test datje units in een gedeeltelijke draaiend systeem kunnen werken.
+      * system: test dat je units in een gedeeltelijke draaiend systeem kunnen werken.
     * end-to-end: heel het systeem runnen en testen met een user 
     * acceptance : business testing kan in verschillende lagen gebeuren.
+  * component integration test excersize currently working on it.
+  * Ik heb leren integratie testen schrijven in het spring framework, zowel system als component integration tests.
+  * verder ben ik in aanraking gekomen met Londen TDD test methode, acceptance tests, BDD & cucumber.
+    * hebben deze methodes en tools uitgedokterd.
 
 # Bronnenlijst
 | #   | Links                                                                                                                                                                                                                                           |
 | --- | ------------------------------------------------------------------- |
 | #01 |  [Cursus](https://openclassrooms.com/en/courses/5661466-use-testing-in-java-to-achieve-quality-applications)             |
-| #02 |  []()   |
-| #03 |  []()   |
-| #04 |  []()   |
-| #05 |  []()   |
-| #06 |  []()   |
