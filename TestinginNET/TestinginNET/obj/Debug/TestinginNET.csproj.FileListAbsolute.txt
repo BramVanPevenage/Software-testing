@@ -1,0 +1,7 @@
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestinginNET\bin\Debug\TestinginNET.exe.config
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestinginNET\bin\Debug\TestinginNET.exe
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestinginNET\bin\Debug\TestinginNET.pdb
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestinginNET\obj\Debug\TestinginNET.csproj.AssemblyReference.cache
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestinginNET\obj\Debug\TestinginNET.csproj.CoreCompileInputs.cache
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestinginNET\obj\Debug\TestinginNET.exe
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestinginNET\obj\Debug\TestinginNET.pdb
