@@ -5,3 +5,8 @@ Feature: Adding two numbers
     Given a student is using the Calculator
     When 2 and 5 are added
     Then the student is shown 7
+    
+  Scenario: Adding two negative number
+    Given a student is using the Calculator
+    When -5 and -9 are added
+    Then the student is shown -14

@@ -1,4 +1,4 @@
-package com.openclassrooms.calculator2.calculation;
+package com.openclassrooms.calculator2.calculation.cucumber;
 
 
 import cucumber.api.CucumberOptions;
