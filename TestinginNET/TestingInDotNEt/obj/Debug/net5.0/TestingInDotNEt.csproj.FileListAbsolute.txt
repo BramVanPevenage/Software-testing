@@ -101,3 +101,5 @@ C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestingInDotNEt\obj
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestingInDotNEt\obj\Debug\net5.0\ref\TestingInDotNEt.dll
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestingInDotNEt\obj\Debug\net5.0\TestingInDotNEt.pdb
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestingInDotNEt\obj\Debug\net5.0\TestingInDotNEt.genruntimeconfig.cache
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestingInDotNEt\bin\Debug\net5.0\Castle.Core.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\TestingInDotNEt\bin\Debug\net5.0\Moq.dll

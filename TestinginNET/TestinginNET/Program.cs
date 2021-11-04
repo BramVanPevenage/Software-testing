@@ -30,3 +30,13 @@ public class TestChild : Test
         return x * 4;
     }
 }
+
+public class DateTimeProvider : IDateTimeProvider
+{
+    public DateTime GetNow() => DateTime.Now;
+}
+
+public interface IDateTimeProvider
+{
+    DateTime GetNow();
+}
