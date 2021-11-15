@@ -1,0 +1,10 @@
+﻿2021-11-15T15:04:34.4521728+01:00;Thread#1;Info;Reading test run result from Json file "C:\Users\bramv\AppData\Local\Temp\d119cc5a-ae6b-4c44-9381-f6ed45be2034".
+2021-11-15T15:04:34.4551728+01:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\bramv\AppData\Local\Temp\d119cc5a-ae6b-4c44-9381-f6ed45be2034"
+2021-11-15T15:04:34.4551728+01:00;Thread#1;Info;Deserializing test run result
+2021-11-15T15:04:34.7182574+01:00;Thread#1;Info;Successfully deserialized test run result
+2021-11-15T15:04:34.7182574+01:00;Thread#1;Info;Loading test run result
+2021-11-15T15:04:34.7502604+01:00;Thread#1;Info;Successfully loaded test run result
+2021-11-15T15:04:34.7662633+01:00;Thread#1;Info;creating 1 report(s)
+2021-11-15T15:04:34.7712628+01:00;Thread#1;Info;generate Report using template ReportTemplate.cshtml
+2021-11-15T15:04:36.1278840+01:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========

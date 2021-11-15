@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4bd15090-8b37-4c5a-9c57-8dc1065dc3c8": {
+      "ProjectGuid": "4bd15090-8b37-4c5a-9c57-8dc1065dc3c8",
+      "DisplayName": "IntegrationTests",
+      "ColorIndex": 0
+    },
+    "64dfbf27-c9f8-4809-b562-cc0dfedfdcab": {
+      "ProjectGuid": "64dfbf27-c9f8-4809-b562-cc0dfedfdcab",
+      "DisplayName": "WebCalculator",
+      "ColorIndex": 1
+    },
+    "dee7cff8-1312-4d9f-b60a-88b8ba29733a": {
+      "ProjectGuid": "dee7cff8-1312-4d9f-b60a-88b8ba29733a",
+      "DisplayName": "SpecFlowProject.IntegrationTestss",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

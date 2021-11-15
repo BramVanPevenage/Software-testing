@@ -1,4 +1,7 @@
 ﻿using TechTalk.SpecFlow;
+using FluentAssertions;
+using Calculator.Domain;
+using Xunit;
 
 namespace SpecFlowProject.IntegrationTestss.Steps
 {
@@ -9,6 +12,8 @@ namespace SpecFlowProject.IntegrationTestss.Steps
         // For additional details on SpecFlow step definitions see https://go.specflow.org/doc-stepdef
 
         private readonly ScenarioContext _scenarioContext;
+        private readonly Calculatoor _calculator = new Calculatoor();
+        private int _result = 0;
 
         public CalculatorStepDefinitions(ScenarioContext scenarioContext)
         {
@@ -18,41 +23,29 @@ namespace SpecFlowProject.IntegrationTestss.Steps
         [Given("the first number is (.*)")]
         public void GivenTheFirstNumberIs(int number)
         {
-            //TODO: implement arrange (precondition) logic
-            // For storing and retrieving scenario-specific data see https://go.specflow.org/doc-sharingdata
-            // To use the multiline text or the table argument of the scenario,
-            // additional string/Table parameters can be defined on the step definition
-            // method. 
-
-            _scenarioContext.Pending();
+            _calculator.FirstNumber = number;
         }
 
         [Given("the second number is (.*)")]
         public void GivenTheSecondNumberIs(int number)
         {
-            //TODO: implement arrange (precondition) logic
-            // For storing and retrieving scenario-specific data see https://go.specflow.org/doc-sharingdata
-            // To use the multiline text or the table argument of the scenario,
-            // additional string/Table parameters can be defined on the step definition
-            // method. 
-
-            _scenarioContext.Pending();
+            _calculator.SecondNumber = number;
         }
 
         [When("the two numbers are added")]
         public void WhenTheTwoNumbersAreAdded()
         {
-            //TODO: implement act (action) logic
-
-            _scenarioContext.Pending();
+            _result = _calculator.Add();
         }
 
         [Then("the result should be (.*)")]
         public void ThenTheResultShouldBe(int result)
         {
-            //TODO: implement assert (verification) logic
+            //meer leesbare code
+            _result.Should().Be(result);
 
-            _scenarioContext.Pending();
+            //xUnit
+            Assert.Equal(result, _result);
         }
     }
 }

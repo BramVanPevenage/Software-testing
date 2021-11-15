@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestinginNET", "TestinginNET\TestinginNET.csproj", "{77F92FA9-3EBE-425C-BC07-31D21FF2825A}"
 EndProject
@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCalculator", "WebCalcula
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{4BD15090-8B37-4C5A-9C57-8DC1065DC3C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowProject.IntegrationTestss", "SpecFlowProject.IntegrationTestss\SpecFlowProject.IntegrationTestss.csproj", "{DEE7CFF8-1312-4D9F-B60A-88B8BA29733A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFlowProject.IntegrationTestss", "SpecFlowProject.IntegrationTestss\SpecFlowProject.IntegrationTestss.csproj", "{DEE7CFF8-1312-4D9F-B60A-88B8BA29733A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Domain", "Calculator.Domain\Calculator.Domain.csproj", "{DDF30B6C-B6C5-4B33-8719-8972197C5A66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +129,26 @@ Global
 		{DEE7CFF8-1312-4D9F-B60A-88B8BA29733A}.Release|x64.Build.0 = Release|Any CPU
 		{DEE7CFF8-1312-4D9F-B60A-88B8BA29733A}.Release|x86.ActiveCfg = Release|Any CPU
 		{DEE7CFF8-1312-4D9F-B60A-88B8BA29733A}.Release|x86.Build.0 = Release|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Debug|ARM.Build.0 = Debug|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Debug|x64.Build.0 = Debug|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Debug|x86.Build.0 = Debug|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Release|ARM.Build.0 = Release|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Release|ARM64.Build.0 = Release|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Release|x64.ActiveCfg = Release|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Release|x64.Build.0 = Release|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Release|x86.ActiveCfg = Release|Any CPU
+		{DDF30B6C-B6C5-4B33-8719-8972197C5A66}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

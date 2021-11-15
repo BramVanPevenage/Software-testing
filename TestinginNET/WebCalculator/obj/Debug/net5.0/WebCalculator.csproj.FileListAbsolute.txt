@@ -18,7 +18,6 @@ C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\D
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\WebCalculator.RazorAssemblyInfo.cache
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\WebCalculator.RazorAssemblyInfo.cs
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\staticwebassets\WebCalculator.StaticWebAssets.Manifest.cache
-C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\staticwebassets\WebCalculator.StaticWebAssets.xml
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\scopedcss\bundle\WebCalculator.styles.css
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\WebCalculator.TagHelpers.input.cache
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\WebCalculator.TagHelpers.output.cache

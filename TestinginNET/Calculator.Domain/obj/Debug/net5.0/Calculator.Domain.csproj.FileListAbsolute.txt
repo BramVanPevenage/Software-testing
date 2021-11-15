@@ -1,0 +1,12 @@
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\bin\Debug\net5.0\Calculator.Domain.deps.json
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\bin\Debug\net5.0\Calculator.Domain.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\bin\Debug\net5.0\ref\Calculator.Domain.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\bin\Debug\net5.0\Calculator.Domain.pdb
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\obj\Debug\net5.0\Calculator.Domain.csproj.AssemblyReference.cache
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\obj\Debug\net5.0\Calculator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\obj\Debug\net5.0\Calculator.Domain.AssemblyInfoInputs.cache
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\obj\Debug\net5.0\Calculator.Domain.AssemblyInfo.cs
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\obj\Debug\net5.0\Calculator.Domain.csproj.CoreCompileInputs.cache
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\obj\Debug\net5.0\Calculator.Domain.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\obj\Debug\net5.0\ref\Calculator.Domain.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Calculator.Domain\obj\Debug\net5.0\Calculator.Domain.pdb
