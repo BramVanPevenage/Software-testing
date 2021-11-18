@@ -37,3 +37,8 @@ C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\D
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\WebCalculator.pdb
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\WebCalculator.genruntimeconfig.cache
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\WebCalculator.csproj.CopyComplete
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\Debug\net5.0\Microsoft.AspNetCore.TestHost.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\Razor\Views\Calculator\Sum.cshtml.g.cs
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\Debug\net5.0\Calculator.Domain.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\Debug\net5.0\Calculator.Domain.pdb

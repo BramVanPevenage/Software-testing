@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gPt61BgGXFlOyTEQO767NVkhbpfD6NoWKx0Wgo5moVTa6RiFLsHe9dtgJryCUeLJa1wnYejr+RC2QZmjosmckw==",
+  "dgSpecHash": "WbJ3yOfKvN2A2NASSCKcfwNU0o2p59VK1xUbOyKf0sYRVs5hoRPE/8e3wCJP/sgaX/riz2MYKZ3P0MAi4z055w==",
   "success": true,
   "projectFilePath": "C:\\School\\3TI\\Software_Testing\\Software-testing\\TestinginNET\\WebCalculator\\WebCalculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bramv\\.nuget\\packages\\microsoft.aspnetcore.testhost\\5.0.12\\microsoft.aspnetcore.testhost.5.0.12.nupkg.sha512",
+    "C:\\Users\\bramv\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

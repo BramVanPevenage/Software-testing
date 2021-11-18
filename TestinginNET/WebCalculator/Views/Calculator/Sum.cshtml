@@ -1,0 +1,11 @@
+﻿@model WebCalculator.Controllers.CalculatorViewModel
+@{
+    
+}
+<h1>Sum</h1>
+<p>Resultaat</p>
+<span>@Model.X + @Model.Y</span>
+<span id="resultaat">@Model.Sum</span>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

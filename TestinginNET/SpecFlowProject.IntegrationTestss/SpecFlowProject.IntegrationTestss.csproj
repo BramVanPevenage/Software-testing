@@ -30,7 +30,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Calculator.Domain\Calculator.Domain.csproj" />
-    <ProjectReference Include="..\IntegrationTests\IntegrationTests.csproj" />
     <ProjectReference Include="..\TestingInDotNEt\TestingInDotNEt.csproj" />
     <ProjectReference Include="..\TestinginNET\TestinginNET.csproj" />
     <ProjectReference Include="..\WebCalculator\WebCalculator.csproj" />

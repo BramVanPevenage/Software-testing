@@ -1517,7 +1517,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.TestHost": "5.0.12",
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.12",
-          "WebCalculator": "1.0.0"
+          "WebCalculator": "1.0.0",
+          "xunit": "2.4.1"
         },
         "runtime": {
           "IntegrationTests.dll": {}

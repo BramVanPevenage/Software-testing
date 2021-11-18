@@ -20,7 +20,27 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "ddf30b6c-b6c5-4b33-8719-8972197c5a66": {
+      "ProjectGuid": "ddf30b6c-b6c5-4b33-8719-8972197c5a66",
+      "DisplayName": "Calculator.Domain",
+      "ColorIndex": 3
+    },
+    "e793510f-9e13-4ba3-8d18-25a5af350529": {
+      "ProjectGuid": "e793510f-9e13-4ba3-8d18-25a5af350529",
+      "DisplayName": "TestingInDotNEt",
+      "ColorIndex": 4
+    },
+    "77f92fa9-3ebe-425c-bc07-31d21ff2825a": {
+      "ProjectGuid": "77f92fa9-3ebe-425c-bc07-31d21ff2825a",
+      "DisplayName": "TestinginNET",
+      "ColorIndex": 5
+    },
+    "e3411daf-b83c-4573-9f23-0ae596b9d08d": {
+      "ProjectGuid": "e3411daf-b83c-4573-9f23-0ae596b9d08d",
+      "DisplayName": "Integrationtestss",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 7
 }

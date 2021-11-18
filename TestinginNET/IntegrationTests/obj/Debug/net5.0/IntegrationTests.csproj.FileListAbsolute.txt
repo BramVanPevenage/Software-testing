@@ -21,3 +21,6 @@ C:\School\3TI\Software_Testing\Software-testing\TestinginNET\IntegrationTests\bi
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\IntegrationTests\bin\Debug\net5.0\IntegrationTests.dll
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\IntegrationTests\bin\Debug\net5.0\ref\IntegrationTests.dll
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\IntegrationTests\bin\Debug\net5.0\IntegrationTests.pdb
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\IntegrationTests\bin\Debug\net5.0\IntegrationTests.runtimeconfig.json
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\IntegrationTests\bin\Debug\net5.0\IntegrationTests.runtimeconfig.dev.json
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\IntegrationTests\obj\Debug\net5.0\IntegrationTests.genruntimeconfig.cache
