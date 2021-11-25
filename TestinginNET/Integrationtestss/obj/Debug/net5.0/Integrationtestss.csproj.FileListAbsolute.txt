@@ -113,3 +113,8 @@ C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Integrationtestss\o
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Integrationtestss\obj\Debug\net5.0\Integrationtestss.genruntimeconfig.cache
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Integrationtestss\bin\Debug\net5.0\Calculator.Domain.dll
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Integrationtestss\bin\Debug\net5.0\Calculator.Domain.pdb
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Integrationtestss\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Integrationtestss\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Integrationtestss\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Integrationtestss\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\Integrationtestss\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

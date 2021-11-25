@@ -42,3 +42,7 @@ C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\D
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\obj\Debug\net5.0\Razor\Views\Calculator\Sum.cshtml.g.cs
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\Debug\net5.0\Calculator.Domain.dll
 C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\Debug\net5.0\Calculator.Domain.pdb
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\School\3TI\Software_Testing\Software-testing\TestinginNET\WebCalculator\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
