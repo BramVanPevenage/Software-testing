@@ -10,29 +10,64 @@ using Xunit;
 
 namespace Integrationtestss
 {
-    public class CalculatorDBTests
+    public class CalculatorDBTests : TestDBBaseClass //using base class for doing the configurations
     {
-        [Fact]
+     
+
+        [Fact(DisplayName = "Counting the rows we retrieve from the database to check that ervery result is there")]
         public void ShouldReturnAllResult()
         {
-            var options = new DbContextOptionsBuilder<ApplicationDbContext>().UseInMemoryDatabase(databaseName: "CalculatorTesting").Options;
 
-            var context = new ApplicationDbContext(options);
+            List<Result> result;
 
-            Seed(context);
-        }
-
-        private void Seed(ApplicationDbContext context)
-        {
-            var result = new[]
+            using (_context)
             {
-                new Result(OperationType.Subtraction, 20, new int[]{ 10,10}),
-                new Result(OperationType.Subtraction, 30, new int[]{ 20,10}),
-                new Result(OperationType.Subtraction, 40, new int[]{ 30,10}),
-            };
+                result = _context.Results.ToList();
+            }
 
-            context.Add(result);
-            context.SaveChanges();
+            Assert.Equal(3, result.Count);
         }
+        [Fact(DisplayName ="Retrieving every result with outcome of 10, should be 1 row with Outcome = '10.0'")]
+        public void ShouldReturnResult10()
+        {
+
+            Result result;
+
+            using (_context)
+            {
+                result = _context.Results.Where(x => x.ResultOfOperation == 20.0).SingleOrDefault();
+            }
+
+            Assert.Equal(20.0, result.ResultOfOperation);
+        }
+
+        [Fact(DisplayName = "Retrieving every result with an Operation type of Sum, should be 1 row with OperationType = 'Sum'")]
+        public void ShouldReturnOperationTypeSul10()
+        {
+
+            Result result;
+
+            using (_context)
+            {
+                result = _context.Results.Where(x => x.Operation == OperationType.Sum).SingleOrDefault();
+            }
+
+            Assert.Equal(OperationType.Sum, result.Operation);
+        }
+
+        //private void Seed(ApplicationDbContext context)
+        //{
+        //    var result = new[]
+        //    {
+        //        new Result(OperationType.Sum, 20, "10,10"),
+        //        new Result(OperationType.Subtraction, 30, "20,10"),
+        //        new Result(OperationType.Subtraction, 40, "30,10"),
+        //    };
+
+        //    context.Results.AddRange(result);
+        //    context.SaveChanges();
+        //}
+
+
     }
 }
