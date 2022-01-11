@@ -4,6 +4,7 @@ import com.openclassrooms.calculator2.calculation.cucumber.CucumberAT;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import io.cucumber.spring.CucumberContextConfiguration;
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -19,6 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest(classes = CucumberAT.class)
 @AutoConfigureMockMvc
+@CucumberContextConfiguration
 public class CalculatorSteps {
 
     @Autowired
